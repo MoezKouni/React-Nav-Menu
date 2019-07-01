@@ -28,7 +28,3 @@ ul{
 ul:hover{
   background-color: rgba(0, 139, 139, 0.408);
 }
-
-.active{
-  color: red;
-}
