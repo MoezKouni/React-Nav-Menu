@@ -1,6 +1,7 @@
 .App{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   background-color: lightblue;
   overflow: hidden;
@@ -9,22 +10,45 @@ li{
   padding-bottom: 5px;
   border-radius: 7px;
   width: 100%;
+  list-style-type: none;
+  display: inline-block
 }
 a{
   text-decoration: none;
-  color: white;
+  display: inline-block;
+  color: black;
   font-size: 20px;
   padding: 10px;
   width: 100%;
 }
-
+h1{
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Montserrat'
+}
 ul{
   width: 100%;
   text-align: center;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
-ul:hover{
+a:hover{
   background-color: rgba(0, 139, 139, 0.408);
+  text-decoration: none;
+
+}
+
+.sub-menu{
+  background: white;
+}
+.is-active{
+  font-size: 50px;
+}
+
+.active {
+  border-bottom: 8px solid gold;
+  color:black ;
+  font-weight:bold;
 }

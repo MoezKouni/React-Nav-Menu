@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Liste from './Liste';
+import Routes from './Routes';
 
-const tab = ['Home', 'Services', 'Contact'];
 
 function App() {
   return (
-    <div className="App">
-      <Liste tabItems={tab}/>
-    </div>
+      <Routes/>
   );
 }
 
